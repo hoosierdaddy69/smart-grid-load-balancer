@@ -1,0 +1,14 @@
+{
+  "dashboard": {
+    "title": "Smart Grid Load",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Substation Load",
+        "targets": [
+          {"expr": "active_sessions", "legendFormat": "{{instance}}"}
+        ]
+      }
+    ]
+  }
+}
